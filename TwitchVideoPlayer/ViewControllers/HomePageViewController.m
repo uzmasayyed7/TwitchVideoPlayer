@@ -6,13 +6,13 @@
 //  Copyright © 2020 uzma. All rights reserved.
 //
 
-#import "HomePage.h"
+#import "HomePageViewController.h"
 
-@interface HomePage ()
+@interface HomePageViewController ()
 
 @end
 
-@implementation HomePage
+@implementation HomePageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

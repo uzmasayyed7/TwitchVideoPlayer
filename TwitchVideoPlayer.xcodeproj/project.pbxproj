@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		10A666FDCBF5C5B1B682A84B /* Pods_TwitchVideoPlayer_TwitchVideoPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58358758260F6672F3B579F /* Pods_TwitchVideoPlayer_TwitchVideoPlayerUITests.framework */; };
 		7BF42783F83993F0F4649A28 /* Pods_TwitchVideoPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B76CD007D0DD6ECF5457 /* Pods_TwitchVideoPlayerTests.framework */; };
-		84779B78245C3F9B002CD63F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779B77245C3F9B002CD63F /* AppDelegate.m */; };
-		84779B7E245C3F9B002CD63F /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779B7D245C3F9B002CD63F /* HomePage.m */; };
 		84779B81245C3F9B002CD63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84779B7F245C3F9B002CD63F /* Main.storyboard */; };
 		84779B83245C3F9D002CD63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84779B82245C3F9D002CD63F /* Assets.xcassets */; };
 		84779B86245C3F9D002CD63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84779B84245C3F9D002CD63F /* LaunchScreen.storyboard */; };
-		84779B89245C3F9D002CD63F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779B88245C3F9D002CD63F /* main.m */; };
 		84779B93245C3F9D002CD63F /* TwitchVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779B92245C3F9D002CD63F /* TwitchVideoPlayerTests.m */; };
 		84779B9E245C3F9D002CD63F /* TwitchVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779B9D245C3F9D002CD63F /* TwitchVideoPlayerUITests.m */; };
+		84779BB3245D55AA002CD63F /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779BAC245D55AA002CD63F /* HomePageViewController.m */; };
+		84779BB4245D55AA002CD63F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779BB0245D55AA002CD63F /* main.m */; };
+		84779BB5245D55AA002CD63F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84779BB1245D55AA002CD63F /* AppDelegate.m */; };
+		84779BB6245D55AA002CD63F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84779BB2245D55AA002CD63F /* Info.plist */; };
 		B1B2ED6C87BD0BED4181A44A /* Pods_TwitchVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCDB4022B477871E92A6C0 /* Pods_TwitchVideoPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,21 +44,21 @@
 		68BCDB4022B477871E92A6C0 /* Pods_TwitchVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE8A72C8F302915636AE700 /* Pods-TwitchVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchVideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-TwitchVideoPlayer/Pods-TwitchVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		84779B73245C3F9B002CD63F /* TwitchVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitchVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84779B76245C3F9B002CD63F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84779B77245C3F9B002CD63F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84779B7C245C3F9B002CD63F /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
-		84779B7D245C3F9B002CD63F /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		84779B80245C3F9B002CD63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84779B82245C3F9D002CD63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84779B85245C3F9D002CD63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84779B87245C3F9D002CD63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84779B88245C3F9D002CD63F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84779B8E245C3F9D002CD63F /* TwitchVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitchVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84779B92245C3F9D002CD63F /* TwitchVideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitchVideoPlayerTests.m; sourceTree = "<group>"; };
 		84779B94245C3F9D002CD63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84779B99245C3F9D002CD63F /* TwitchVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitchVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84779B9D245C3F9D002CD63F /* TwitchVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitchVideoPlayerUITests.m; sourceTree = "<group>"; };
 		84779B9F245C3F9D002CD63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84779BAC245D55AA002CD63F /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		84779BAD245D55AA002CD63F /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		84779BAF245D55AA002CD63F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84779BB0245D55AA002CD63F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84779BB1245D55AA002CD63F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84779BB2245D55AA002CD63F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CB097525E6326A9DC6C6E28 /* Pods-TwitchVideoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchVideoPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-TwitchVideoPlayerTests/Pods-TwitchVideoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		A58358758260F6672F3B579F /* Pods_TwitchVideoPlayer_TwitchVideoPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchVideoPlayer_TwitchVideoPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A597C1BA4C2C768F21C750BF /* Pods-TwitchVideoPlayer-TwitchVideoPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchVideoPlayer-TwitchVideoPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-TwitchVideoPlayer-TwitchVideoPlayerUITests/Pods-TwitchVideoPlayer-TwitchVideoPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,15 +142,11 @@
 		84779B75245C3F9B002CD63F /* TwitchVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				84779B76245C3F9B002CD63F /* AppDelegate.h */,
-				84779B77245C3F9B002CD63F /* AppDelegate.m */,
-				84779B7C245C3F9B002CD63F /* HomePage.h */,
-				84779B7D245C3F9B002CD63F /* HomePage.m */,
+				84779BAE245D55AA002CD63F /* SupportingFiles */,
+				84779BAB245D55AA002CD63F /* ViewControllers */,
 				84779B7F245C3F9B002CD63F /* Main.storyboard */,
 				84779B82245C3F9D002CD63F /* Assets.xcassets */,
 				84779B84245C3F9D002CD63F /* LaunchScreen.storyboard */,
-				84779B87245C3F9D002CD63F /* Info.plist */,
-				84779B88245C3F9D002CD63F /* main.m */,
 			);
 			path = TwitchVideoPlayer;
 			sourceTree = "<group>";
@@ -170,6 +167,26 @@
 				84779B9F245C3F9D002CD63F /* Info.plist */,
 			);
 			path = TwitchVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		84779BAB245D55AA002CD63F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84779BAD245D55AA002CD63F /* HomePageViewController.h */,
+				84779BAC245D55AA002CD63F /* HomePageViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84779BAE245D55AA002CD63F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84779BAF245D55AA002CD63F /* AppDelegate.h */,
+				84779BB1245D55AA002CD63F /* AppDelegate.m */,
+				84779BB0245D55AA002CD63F /* main.m */,
+				84779BB2245D55AA002CD63F /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84779BB6245D55AA002CD63F /* Info.plist in Resources */,
 				84779B86245C3F9D002CD63F /* LaunchScreen.storyboard in Resources */,
 				84779B83245C3F9D002CD63F /* Assets.xcassets in Resources */,
 				84779B81245C3F9B002CD63F /* Main.storyboard in Resources */,
@@ -410,9 +428,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84779B7E245C3F9B002CD63F /* HomePage.m in Sources */,
-				84779B78245C3F9B002CD63F /* AppDelegate.m in Sources */,
-				84779B89245C3F9D002CD63F /* main.m in Sources */,
+				84779BB4245D55AA002CD63F /* main.m in Sources */,
+				84779BB3245D55AA002CD63F /* HomePageViewController.m in Sources */,
+				84779BB5245D55AA002CD63F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
