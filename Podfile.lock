@@ -1,0 +1,16 @@
+PODS:
+  - TwitchPlayer (0.2.3)
+
+DEPENDENCIES:
+  - TwitchPlayer
+
+SPEC REPOS:
+  trunk:
+    - TwitchPlayer
+
+SPEC CHECKSUMS:
+  TwitchPlayer: 60e9999dec4f74121685eec0b6e9843c2b44d794
+
+PODFILE CHECKSUM: 7811aace82d4b2382a89a05a5507821b61e796a3
+
+COCOAPODS: 1.9.0
